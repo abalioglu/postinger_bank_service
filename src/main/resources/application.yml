@@ -1,0 +1,14 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: postinger-bank-service
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+  main:
+    web-application-type: servlet
+
